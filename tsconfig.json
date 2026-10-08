@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2025",
+    "module": "Node16",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "src/",
+    "outDir": "out/",
+    "moduleResolution": "node16",
+    "noImplicitAny": false,
+    "types": ["node"]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
