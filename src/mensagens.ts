@@ -6,8 +6,8 @@ export default class Mensagens {
     }
 
     public comoUsar = () => {
-        console.log(`Para usar digite os números e a opção de cálculo separados por espaço como: "1.5 2.5 Soma"`)
-        console.log(`O resultado será a soma dos números: 4`)
+        console.log(`Para usar digite os números e a opção de cálculo separados por espaço como: "1 2 Somar/Subtrair/Multiplicar"\n`)
+        console.log(`O resultado será dado de acordo com a operação escolhida\n`)
         console.log(`Para encerrar digite "Sair"\n`)
     }
 

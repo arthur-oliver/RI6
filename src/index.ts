@@ -22,9 +22,10 @@ let iniciar = () => {
     }
     console.log(`Estas foram suas instruções: ${instrucoes}\n`)
 
+    let calculo: Soma | Subtracao | Multiplicacao
     switch (operacao) {
       case 'Somar':
-        let calculo = new Soma()
+        calculo = new Soma()
         console.log(`O resultado da operação é: ${calculo.calcular(numero1, numero2)}\n`)
         break;
       case 'Subtrair':
